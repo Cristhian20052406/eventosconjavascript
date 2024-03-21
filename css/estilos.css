@@ -1,0 +1,53 @@
+/* Estilos base */
+.platos {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.data {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.calificacion {
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icon-verde {
+    background-color: #4CAF50;
+}
+
+.icon-amarillo {
+    background-color: #FFC107;
+}
+
+.icon-rojo {
+    background-color: #F44336;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin-bottom: 30px;
+}
